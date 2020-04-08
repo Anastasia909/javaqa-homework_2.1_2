@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int Balance = 100;
-        int Refill = 1538;
-        int Bonus;
-        if (Refill > 1000) {
-            Bonus = Refill / 100;
+        int balance = 100;
+        int refill = 1538;
+        int bonus;
+        if (refill > 1000) {
+            bonus = refill / 100;
         } else {
-            Bonus = 0;
+            bonus = 0;
         }
-        int Total = Balance + Refill + Bonus;
-        System.out.println(Bonus);
-        System.out.println(Total);
+        int total = balance + refill + bonus;
+        System.out.println(bonus);
+        System.out.println(total);
     }
 }
